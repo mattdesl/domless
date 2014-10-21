@@ -1,0 +1,43 @@
+{
+  "name": "domless",
+  "version": "1.0.0",
+  "description": "domless route stuff",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Matt DesLauriers",
+    "email": "dave.des@gmail.com",
+    "url": "https://github.com/mattdesl"
+  },
+  "dependencies": {
+    "bluebird": "~2.3.6",
+    "brfs": "^1.2.0",
+    "routes": "~1.2.0",
+    "img": "0.0.1",
+    "gsap-promise": "~1.0.0",
+    "transitions": "~2.0.1",
+    "inherits": "~2.0.1",
+    "mixes": "~1.0.4"
+  },
+  "devDependencies": {
+    "routes": "~1.2.0",
+    "canvas-testbed": "~1.0.2"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mattdesl/domless.git"
+  },
+  "homepage": "https://github.com/mattdesl/domless",
+  "bugs": {
+    "url": "https://github.com/mattdesl/domless/issues"
+  },
+  "browserify": {
+    "transform": [
+      "brfs"
+    ]
+  }
+}
